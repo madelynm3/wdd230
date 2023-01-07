@@ -1,0 +1,41 @@
+header {
+  padding: 15px;
+  background-color: #2b516e;
+  color: white;
+  text-align: center;
+}
+
+header img {
+  box-shadow: 10px 5px 5px black;
+  width: 150px;
+}
+
+h1 {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 3em;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+h2 {
+  font-family: "Catamaran", sans-serif;
+  font-size: 2em;
+}
+
+.course-assignments {
+  border-top: 3px inset black;
+  border-bottom: 3px inset black;
+}
+
+footer,
+ul li,
+span {
+  font-family: "Catamaran", sans-serif;
+}
+
+footer {
+  padding: 15px;
+  background-color: #2b516e;
+  color: white;
+}
