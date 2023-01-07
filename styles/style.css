@@ -3,12 +3,18 @@ header, nav, main, footer {
   max-width: 760px;
 }
 header {
-  padding: 15px;
+  padding: 1.5rem;
   background-color: #2b516e;
   color: white;
   text-align: center;
 }
 
+p img {
+  float:right;
+  margin:10px;
+  border:1px solid #000;
+
+}
 header img {
   box-shadow: 10px 5px 5px black;
   width: 150px;
