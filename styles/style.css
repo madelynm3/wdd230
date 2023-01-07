@@ -1,3 +1,7 @@
+header, nav, main, footer {
+  margin:1.25rem auto;
+  max-width: 760px;
+}
 header {
   padding: 15px;
   background-color: #2b516e;
