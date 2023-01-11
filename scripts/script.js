@@ -15,3 +15,5 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 
 
 
+const year = now.getFullYear();
+document.querySelector("#year").textContent = year;
