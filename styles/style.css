@@ -33,6 +33,10 @@ h2 {
   font-size: 2em;
 }
 
+h3 {
+  text-align:center;
+}
+
 .course-assignments {
   border-top: 3px inset black;
   border-bottom: 3px inset black;
@@ -48,5 +52,4 @@ footer {
   padding: 15px;
   background-color: #2b516e;
   color: white;
-  text-align:center;
 }
