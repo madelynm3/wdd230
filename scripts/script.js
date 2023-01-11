@@ -13,5 +13,8 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
-let year = fulldate.getFullYear();
+
+
+const d = new Date();
+let year = d.getFullYear();
 document.getElementById("#year").innerHTML = year;
