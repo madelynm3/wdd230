@@ -12,3 +12,8 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 // long, medium, short options ... try them
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
+
+
+
+const year = now.getFullYear();
+document.querySelector("#year").textContent = year;

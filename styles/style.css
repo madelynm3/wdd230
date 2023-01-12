@@ -33,6 +33,10 @@ h2 {
   font-size: 2em;
 }
 
+h3 {
+  justify-items:center;
+}
+
 .course-assignments {
   border-top: 3px inset black;
   border-bottom: 3px inset black;
@@ -42,6 +46,7 @@ footer,
 ul li,
 span {
   font-family: "Catamaran", sans-serif;
+  text-align:center;
 }
 
 footer {
